@@ -1,12 +1,10 @@
-package com.datehoer.blog.entity;
+package com.datehoer.blog.dto;
 
 import lombok.Data;
 
 @Data
-public class User {
-    private Long id;
+public class UserRegisterDto {
     private String username;
     private String password;
     private String email;
-    private String salt;
 }
